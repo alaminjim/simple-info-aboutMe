@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import coderBoy from "../../public/annimate/Coder boy.json";
 import hero from "../../public/images/Hero.png";
 import facebook from "../../public/images/facebook.png";
 import twitter from "../../public/images/twitter.png";
@@ -7,6 +8,7 @@ import linkedin from "../../public/images/linkedin.png";
 import reactLogo from "../../public/images/React.png";
 import reduxLogo from "../../public/images/Redux.png";
 import tailwind from "../../public/images/Tailwind Css.png";
+import Lottie from "lottie-react";
 
 const Hero = () => {
   return (
@@ -30,7 +32,11 @@ const Hero = () => {
             </button>
           </div>
           <div className="md:w-1/2 relative flex justify-center items-end">
-            <img src={hero} alt="" className="lg:h-[90vh] h-96" />
+            <Lottie
+              animationData={coderBoy}
+              className="lg:h-[90vh] h-96  mt-72"
+            ></Lottie>
+
             <img
               src={reactLogo}
               alt=""
