@@ -11,14 +11,14 @@ const Projects = () => {
       title: "Portfolio",
       desc: "Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.",
       image: Portfolio,
-      live: "",
+      live: "https://github.com/alaminjim",
       github: "https://github.com/alaminjim",
     },
     {
       title: "Spicy Bites",
       desc: "The team at Webelite Builders exceeded our expectations with their digital marketing expertise. Highly recommend!",
       image: SpicyBites,
-      live: "",
+      live: "https://github.com/alaminjim",
       github: "https://github.com/alaminjim",
     },
     {
@@ -32,14 +32,14 @@ const Projects = () => {
       title: "Webelite builder",
       desc: "Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.",
       image: Webelite,
-      live: "",
+      live: "https://github.com/alaminjim",
       github: "https://github.com/alaminjim",
     },
     {
       title: "Super Car",
       desc: "Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.",
       image: Supercar,
-      live: "",
+      live: "https://github.com/alaminjim",
       github: "https://github.com/alaminjim",
     },
   ];

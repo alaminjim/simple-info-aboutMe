@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import coderBoy from "../../public/annimate/Coder boy.json";
-import hero from "../../public/images/Hero.png";
 import facebook from "../../public/images/facebook.png";
 import twitter from "../../public/images/twitter.png";
 import instagram from "../../public/images/instagram.png";

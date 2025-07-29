@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Logo from "../../public/images/Logo.png";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
@@ -10,7 +9,9 @@ const Navbar = () => {
       <div className=" max-w-7xl mx-auto flex h-14 items-center">
         <div className="md:mr-4 flex justify-between w-full">
           <a href="#" className="mr-6 flex items-center space-x-2">
-            <img src={Logo} alt="" className="w-36" />
+            <h1>
+              <span className="text-red-600">Al Amin</span> Islam
+            </h1>
           </a>
           <nav className="md:flex hidden items-center space-x-6 text-lg font-medium">
             <a
